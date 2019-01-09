@@ -1,0 +1,14 @@
+[package]
+name = "zkp"
+version = "0.1.0"
+authors = ["Guillaume Ballet <gballet@gmail.com>"]
+repository = "https://github.com/gballet/wasm-plugins"
+edition = "2018"
+readme = "README.md"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+parity-wasm = "0.35.3"
+
