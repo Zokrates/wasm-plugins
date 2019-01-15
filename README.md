@@ -18,4 +18,4 @@ $ cargo build
 
 ## Adding plugins
 
-Add a directory containing the rust project for your plugin. Then edit the `Cargo.toml` at the root of this repository and add  that directory name to `exclude`.
+Add a directory containing the rust project for your plugin. It will be compiled automatically.
